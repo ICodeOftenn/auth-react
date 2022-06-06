@@ -13,10 +13,6 @@ app.get('/', (req, res, next)=>{
   res.send('hello');
 });
 
-app.get('/sex', (req, res)=>{
-  res.send('BRAH');
-})
-
 app.use(authRouter);
 
 app.get('*', (_, res)=>{
