@@ -1,5 +1,5 @@
 # auth-react
-Just a demo project in which I built a server to signup and log in users and connected that with a react application.
+Just a demo project in which I built a server using nodejs, [express](https://expressjs.com) and [mongoDB](https://www.mongodb.com/) with the functionality of signing up and logging in users, and connected that with a react application.
 
 ## Installation
 Fork the project and run `npm install` in both the directories. Then - 
